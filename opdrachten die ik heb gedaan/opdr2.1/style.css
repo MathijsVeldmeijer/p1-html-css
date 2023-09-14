@@ -1,0 +1,17 @@
+.fietsen {color: rgb(42, 222, 54);}
+h2 {color: blue;}
+.gamen {color: darkred;}
+p {
+    
+    
+    margin-right: 150px;
+    margin-left: 100px;
+  }
+  h2 {margin-left: 50px;}
+  h1 {color: #954486;}
+  body {
+    background-color: rgba(96, 94, 27, 0.215);
+  }
+  p {
+    font-size: 24px;
+  }
