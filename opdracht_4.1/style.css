@@ -23,6 +23,10 @@ p{
 }
 .first_par{
     font-weight: bold;
+    color: rgb(235, 150, 150);
+}
+h1{
+    color: #ff0000;
 }
 
 a{
@@ -30,3 +34,19 @@ a{
     text-decoration: none;
 }
 
+header{
+    font-size: 33px;
+    background-image: url(img/gamer.jpg);
+    background-repeat: no-repeat;  
+    background-position: center;
+    background-size: cover;
+       
+}
+img{
+    width: 45em;
+}
+article{
+    border: 3px solid red;
+    border-radius: 2rem;
+    border-left: 1rem solid red;
+}
