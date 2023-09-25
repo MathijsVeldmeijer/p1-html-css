@@ -8,6 +8,10 @@ html {
 }
 body {
   font-family: "Goldman", cursive;
+  min-height: 100vh;
+  position: absolute;
+  margin-top: 16em;
+  padding-bottom: 10em;
 }
 
 nav {
@@ -20,11 +24,18 @@ nav {
   margin: auto;
   background: #00a8c7;
   justify-content: space-between;
+  position: fixed;
+  position: top;
+  top: 0em;
 }
 footer{
     background: #00a8c7;
   padding: 3rem;
-
+position: fixed;
+text-align: center;
+width: 100%;
+padding-top: 2em;
+bottom: 0em;
 }
 nav ul {
   display: flex;
@@ -55,4 +66,27 @@ nav img {
 }
 .white{
   color: white;
+}
+h1{
+  top: 0%;
+  width: 100%;
+  text-align: center;
+}
+.left{
+  float: left;
+  width: 50%;
+}
+.right{
+  float: right;
+  margin-top: 1em;
+  width: 50%;
+  padding-right: 8em;
+  font-size: 2.5em;
+  margin-top: 2.5em;
+}
+.html-red{
+  color: rgb(0, 136, 255);
+}
+.css-red{
+  color: rgb(255, 85, 0);
 }
