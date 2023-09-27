@@ -59,7 +59,6 @@ nav img {
   width: 100vw;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
 }
 .black{
   background-color: black;
@@ -71,6 +70,7 @@ h1{
   top: 0%;
   width: 100%;
   text-align: center;
+  font-size: 500%;
 }
 .left{
   float: left;
@@ -78,15 +78,72 @@ h1{
 }
 .right{
   float: right;
-  margin-top: 1em;
+  margin-top: 10em;
   width: 50%;
   padding-right: 8em;
-  font-size: 2.5em;
-  margin-top: 2.5em;
+  
+  
 }
 .html-red{
   color: rgb(0, 136, 255);
 }
 .css-red{
   color: rgb(255, 85, 0);
+}
+.FirstPageText{
+  font-size: 8em;
+  margin-top: 3em;
+}
+.yellow{
+  color: yellow;
+}
+.leftJava{
+  float: right;
+  width: 56em;
+  height: 56em;
+  margin-right: 6em;
+}
+p{
+  font-size: 200%;
+  padding-left: 5em;
+  padding-right: 5em;
+}
+h2{
+  font-size: 400%;
+  padding-left: 2.5em;
+  padding-right: 2.5em;
+}
+.blue{
+  color: lightblue;
+}
+.orange{
+  color: orange;
+}
+form{
+  float: center;
+  text-align: left;
+  font-size: 150%;
+  margin-left: 200%;
+  
+}
+input{
+  padding-left: 6em;
+  padding-right: 6em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+.send{
+  padding: 6em;
+  color: white;
+  border-color: aqua;
+  border-width: 4px;
+  border-radius: 1em;
+  background-color: rgb(39, 126, 185);
+  padding-top: 3em;
+  padding-bottom: 3em;
+  font-size: 150%;
+  font-weight: bold;
+}
+.bericht{
+  padding-bottom: 8em;
 }
