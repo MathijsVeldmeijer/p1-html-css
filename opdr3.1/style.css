@@ -75,6 +75,8 @@ h1{
 .left{
   float: left;
   width: 50%;
+  margin-top: 10em;
+  padding-left: 8em;
 }
 .right{
   float: right;
@@ -99,9 +101,9 @@ h1{
 }
 .leftJava{
   float: right;
-  width: 56em;
-  height: 56em;
-  margin-right: 6em;
+  width: 50em;
+  height: 50em;
+  margin-right:12em;
 }
 p{
   font-size: 200%;
@@ -123,12 +125,12 @@ form{
   float: center;
   text-align: left;
   font-size: 150%;
-  margin-left: 200%;
-  
+  margin-left: 800px;
+    
 }
 input{
   padding-left: 6em;
-  padding-right: 6em;
+  padding-right: 10em;
   padding-top: 1em;
   padding-bottom: 1em;
 }
