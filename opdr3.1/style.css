@@ -152,21 +152,28 @@ input{
 ul{
   
 }
+li{
+  float: right;
+}
 li a{
 display: inline-block;
+padding: 0.8rem, 1.2rem;
+text-align: left;
 }
-.DropMenu{
+.dropdown-content{
   position: absolute;
   background-color: blue;
   min-width: 20vw;
   z-index: 1;
   box-shadow: 0rem 0.5rem 1rem 0rem rgb(0, 0, 0);
+  display: none;
 }
-.DropMenu a {
+.dropdown-content a {
   padding: 0.8rem, 1.2rem;
   display: block;
   color: red;
+  text-align: left;
 }
-.DropDown:hover .DropMenu {
+.dropdown:hover .dropdown-content {
   display: block;
 }
