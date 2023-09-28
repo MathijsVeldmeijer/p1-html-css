@@ -149,3 +149,24 @@ input{
 .bericht{
   padding-bottom: 8em;
 }
+ul{
+  
+}
+li a{
+display: inline-block;
+}
+.DropMenu{
+  position: absolute;
+  background-color: blue;
+  min-width: 20vw;
+  z-index: 1;
+  box-shadow: 0rem 0.5rem 1rem 0rem rgb(0, 0, 0);
+}
+.DropMenu a {
+  padding: 0.8rem, 1.2rem;
+  display: block;
+  color: red;
+}
+.DropDown:hover .DropMenu {
+  display: block;
+}
