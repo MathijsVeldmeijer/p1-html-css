@@ -162,17 +162,22 @@ text-align: left;
 }
 .dropdown-content{
   position: absolute;
-  background-color: blue;
+  background-color: rgb(255, 255, 255);
   min-width: 20vw;
   z-index: 1;
   box-shadow: 0rem 0.5rem 1rem 0rem rgb(0, 0, 0);
   display: none;
+  
 }
 .dropdown-content a {
   padding: 0.8rem, 1.2rem;
   display: block;
-  color: red;
+  color: #00a8c7;
   text-align: left;
+  
+}
+.gray{
+  background-color: #ececec;
 }
 .dropdown:hover .dropdown-content {
   display: block;
