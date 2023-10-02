@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.felx-container{
+    background-color: white;
+    height: 100vh;
+    max-width: 1200px;;
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: row-reverse;
+}
+
+.item{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    color: white;
+    height: 200px;
+    width: 200px;
+    display: flex; 
+}
+.red{
+    background-color: red;
+}
+.black{
+    background-color: black;
+}
+.green{
+    background-color: green;
+}
