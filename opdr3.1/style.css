@@ -180,5 +180,6 @@ text-align: left;
   background-color: #ececec;
 }
 .dropdown:hover .dropdown-content {
-  display: block;
+  display: flex;
+  flex-direction: column;
 }
