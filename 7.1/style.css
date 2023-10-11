@@ -6,12 +6,14 @@
 .white{
     color: white;
 }
-
+.dropdown{
+    display: none;
+}
 
 @media screen and (min-width: 992px) {
     .title{
         background-color: red;
-        height: 9vh;
+        height: 10vh;
         display: flex;
         align-items: center;
         padding-left: 5%;
@@ -19,35 +21,35 @@
     }
     .sec1{
         background-color: yellow;
-        height: 20vh;
+        
         display: flex;
         padding-top: 1%;
         flex-flow: column;
         padding-left: 5%;
         text-align: left;
-        padding-bottom: 14%;
+        padding-bottom: 29%;
         padding-right: 5%;
     }
     .sec2{
         background-color: orange;
-        height: 20vh;
+        
         display: flex;
         padding-top: 1%;
         flex-flow: column;
         padding-left: 5%;
         text-align: left;
-        padding-bottom: 14%;
+        padding-bottom: 29%;
         padding-right: 5%;
     }
     .sec3{
         background-color: green;
-        height: 20vh;
+        
         display: flex;
         padding-top: 1%;
         flex-flow: column;
         padding-left: 5%;
         text-align: left;
-        padding-bottom: 14%;
+        padding-bottom: 29%;
         padding-right: 5%;
     }
     
@@ -55,7 +57,7 @@
 @media screen and (max-width: 576px)  {
     .title{
         background-color: blue;
-        height: 9vh;
+        height: 10vh;
         display: flex;
         align-items: center;
         padding-left: 5%;
@@ -65,44 +67,44 @@
         display: flex;
         justify-content: right;
         background-color: white;
-        padding: 3% ;
+        padding: 3vw ;
         margin-left: 75%;
-        
+        display: block;
         
     }
     .sec1{
         background-color: turquoise;
-        height: 15%;
+        
         display: flex;
         padding-top: 13%;
         flex-flow: column;
         padding-left: 5%;
         text-align: center;
-        padding-bottom: 12%;
+        padding-bottom: 17%;
         color: white;
         padding-right: 5%;
     }
     .sec2{
         background-color: magenta;
-        height: 15%;
+        
         display: flex;
         padding-top: 13%;
         flex-flow: column;
         padding-left: 5%;
         text-align: center;
-        padding-bottom: 12%;
+        padding-bottom: 17%;
         color: white;
         padding-right: 5%;
     }
     .sec3{
         background-color: darkblue;
-        height: 20%;
+        
         display: flex;
         padding-top: 13%;
         flex-flow: column;
         padding-left: 5%;
         text-align: center;
-        padding-bottom: 12%;
+        padding-bottom: 17%;
         color: white;
         padding-right: 5%;
     }
@@ -110,45 +112,45 @@
 @media screen and (min-width: 576px) and (max-width: 992px)  {
     .title{
         background-color: lightcoral;
-        height: 9vh;
+        height: 10vh;
         display: flex;
         align-items: center;
-        padding-left: 5%;
+        padding-left: 5vw;
     }
     .sec1{
         background-color: red;
-        height: 15%;
+        
         display: flex;
-        padding-top: 2%;
+        padding-top: 2vh;
         flex-flow: column;
-        padding-left: 5%;
+        padding-left: 5vw;
         text-align: left;
-        padding-bottom: 17%;
+        padding-bottom: 28vh;
         color: white;
-        padding-right: 5%;
+        padding-right: 5vw;
     }
     .sec2{
         background-color: blue;
-        height: 15%;
+        
         display: flex;
-        padding-top: 2%;
+        padding-top: 2vh;
         flex-flow: column;
-        padding-left: 5%;
+        padding-left: 5vw;
         text-align: left;
-        padding-bottom: 17%;
+        padding-bottom: 28vh;
         color: white;
-        padding-right: 5%;
+        padding-right: 5vw;
     }
     .sec3{
         background-color: darkblue;
-        height: 20%;
+        
         display: flex;
-        padding-top: 2%;
+        padding-top: 2vh;
         flex-flow: column;
-        padding-left: 5%;
+        padding-left: 5vw;
         text-align: left;
-        padding-bottom: 17%;
+        padding-bottom: 28vh;
         color: white;
-        padding-right: 5%;
+        padding-right: 5vw;
     }
 }
