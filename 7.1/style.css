@@ -90,9 +90,7 @@ h2{
         display: block;
         
     }
-    .sec1{
-        background-color: turquoise;
-        
+    .secall{
         display: flex;
         padding-top: 13%;
         flex-flow: column;
@@ -100,28 +98,18 @@ h2{
         text-align: center;
         padding-bottom: 17%;
         padding-right: 5%;
+    }
+    .sec1{
+        background-color: turquoise;
+
     }
     .sec2{
         background-color: magenta;
         
-        display: flex;
-        padding-top: 13%;
-        flex-flow: column;
-        padding-left: 5%;
-        text-align: center;
-        padding-bottom: 17%;
-        padding-right: 5%;
+      
     }
     .sec3{
         background-color: darkblue;
-        
-        display: flex;
-        padding-top: 13%;
-        flex-flow: column;
-        padding-left: 5%;
-        text-align: center;
-        padding-bottom: 17%;
-        padding-right: 5%;
     }
 }
 @media screen and (min-width: 576px) and (max-width: 992px)  {
