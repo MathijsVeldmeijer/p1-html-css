@@ -18,6 +18,12 @@
 h1{
     color: white;
 }
+p{
+    color: white;
+}
+h2{
+    color: white;
+}
 .sec1{
     display: flex;
         padding-top: 1%;
@@ -59,18 +65,18 @@ h1{
     .sec3{
         background-color: green;
     }
-    
-}
-@media screen and (max-width: 576px)  {
     h1{
-        color: white;
+        color: black;
     }
     p{
-        color: white;
+        color: black;
     }
     h2{
-        color: white;
+        color: black;
     }
+}
+@media screen and (max-width: 576px)  {
+  
 
     .title{
         background-color: blue;
@@ -121,15 +127,6 @@ h1{
 @media screen and (min-width: 576px) and (max-width: 992px)  {
     .title{
         background-color: lightcoral;
-    }
-    h1{
-        color: white;
-    }
-    p{
-        color: white;
-    }
-    h2{
-        color: white;
     }
     .sec1{
         background-color: red;
